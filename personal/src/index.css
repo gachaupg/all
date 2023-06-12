@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+.navbar{
+    color: rgb(235, 231, 231);
+
+}
+.header-items{
+    display: flex;
+    
+}
+.icons-about{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+.nav-text{
+    color: rgb(243, 239, 239);
+    text-decoration: none;
+    font-size: 2rem;
+}
+.link{
+    color: rgb(220, 215, 215);
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.header-items a{
+    margin-top: 1rem;  
+}
+.header-items{
+    margin-left: 2rem;
+}
+a{
+    color: rgb(240, 235, 235);
+    text-decoration: none;   
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+.dot{
+color: rgb(27, 26, 26);
+}
+.main-home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 10%; */
+    padding-left: 7%;
+    padding-top: 2rem;
+    gap: 4rem;
+}
+.main-bottom{
+    width: 80% !important;
+}
+.latest-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.latest-cards{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap !important;
+}
+@media only screen and (max-width: 600px) {
+ .home-card{
+    width: 80% !important;
+ }   
+ .home-cards{
+    width: 80% !important;
+ }   
+ .header-items{
+    /* margin-left: 1rem !important; */
+ }
+}
+.home-card{
+    width: 30%;
+}
+.home-cards{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-to h1{
+    padding-bottom: 3rem !important;
+}
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* about */
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 10%; */
+    padding-left: 7%;
+    padding-top: 1rem;
+    gap: 3rem;
+}
+.top-about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.top-left{
+    width: 62%;
+}
+.about-line{
+    width: 100%;
+    color: #fffefe;
+    background-color: #d0cbcb;
+    height: 1px;
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.top-bottom img{
+width: 58%;
+border-radius: 50%;
+margin-bottom: 12rem;
+}
+
+/* projects */
+.projects{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.project-buttons{
+    
+}
+.img{
+    object-fit: contain;
+    
+}
+.btn{
+    margin: 0.6rem;
+    width: 7rem;
+}
+/* .card-projects{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} */
